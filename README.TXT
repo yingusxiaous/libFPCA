@@ -67,5 +67,5 @@ The implementation of the underdetermined code is highly nontrivial,
 and its performance is actually a little disappointing. The best
 performance I seem to be able to extract out of it is to iterate the
 FPCA underdetermined algorithm many times, and then to run k-means
-clustering on the output columns to obtian the most accurate estimates
+clustering on the output columns to obtain the most accurate estimates
 of the columns.
